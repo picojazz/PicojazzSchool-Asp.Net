@@ -81,9 +81,23 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="accueil.aspx" />
+    <Content Include="css\materialize.min.css" />
+    <Content Include="css\styles.css" />
+    <Content Include="img\landingPage\banner.jpg" />
+    <Content Include="img\landingPage\banner2.jpg" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\materialize.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="accueil.aspx.designer.vb">
+      <DependentUpon>accueil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="accueil.aspx.vb">
+      <DependentUpon>accueil.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -130,6 +144,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -1,0 +1,8 @@
+c:\users\picojazz\documents\visual studio 2012\Projects\PicojazzSchool\PicojazzSchool\bin\PicojazzSchool.dll
+c:\users\picojazz\documents\visual studio 2012\Projects\PicojazzSchool\PicojazzSchool\bin\PicojazzSchool.pdb
+c:\users\picojazz\documents\visual studio 2012\Projects\PicojazzSchool\PicojazzSchool\bin\PicojazzSchool.xml
+c:\users\picojazz\documents\visual studio 2012\Projects\PicojazzSchool\PicojazzSchool\obj\Debug\PicojazzSchool.Resources.resources
+c:\users\picojazz\documents\visual studio 2012\Projects\PicojazzSchool\PicojazzSchool\obj\Debug\PicojazzSchool.vbproj.GenerateResource.Cache
+c:\users\picojazz\documents\visual studio 2012\Projects\PicojazzSchool\PicojazzSchool\obj\Debug\PicojazzSchool.dll
+c:\users\picojazz\documents\visual studio 2012\Projects\PicojazzSchool\PicojazzSchool\obj\Debug\PicojazzSchool.xml
+c:\users\picojazz\documents\visual studio 2012\Projects\PicojazzSchool\PicojazzSchool\obj\Debug\PicojazzSchool.pdb
