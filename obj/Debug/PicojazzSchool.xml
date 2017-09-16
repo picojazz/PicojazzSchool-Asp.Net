@@ -6,7 +6,7 @@ PicojazzSchool
 </name>
 </assembly>
 <members>
-<member name="F:PicojazzSchool.accueil.form1">
+<member name="F:PicojazzSchool.formations.form1">
 	<summary>
 form1 control.
 </summary>
@@ -39,6 +39,14 @@ To modify move field declaration from designer file to code-behind file.
  Module used to define the properties that are available in the My Namespace for Web projects.
  </summary>
 	<remarks></remarks>
+</member><member name="F:PicojazzSchool.accueil.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member>
 </members>
 </doc>

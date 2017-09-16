@@ -1,14 +1,18 @@
 ﻿.banner{
-    height : 90vh;
+	width: 100%;
+	
+    height : 80vh;
 	background-image:linear-gradient(-225deg, rgba(127, 140, 141,0.5) 0%, rgba(52, 152, 219,0.5) 70%), url("../img/landingPage/banner2.jpg");
     background-size: cover;
     
 }.banner-content{
 	color :white;
+	
 }.banner-title{
 	padding-left : 7%;
 }
 .btnInscrire{
+	
 	color:white;
 	border:2px solid #42a5f5;
 	padding-top: 7px;
@@ -16,6 +20,12 @@
 	padding-right: 28px;
 	padding-left: 28px;
 	margin-right: 5px;
+	font-weight: bold;
+}.btnInscrire1{
+	
+	color:white;
+	
+	
 	font-weight: bold;
 }.banner-button{
 	color:white;
@@ -51,4 +61,36 @@
 }.taille-text{
 	font-family: 'Gabriela', serif;
     font-size: 30px;
+}section{
+	width: 100%;
+	margin:0px;
+
+}.section-title:before, .section-title:after { content:""; display:inline-block; vertical-align: middle; width: 10%; height: 3px; background: #607d8b ;border-radius: 20px; }
+.section-title:before { margin-right: 5% }
+.section-title:after { margin-left: 5% }
+.about-text{
+	font-family: 'Gabriela';
+    font-size: 18px;
+    //letter-spacing: 1px;
+}.icon:hover{
+	transform: scale(1.25);
+	transition: all .8s;
+}.icon{
+	transition: all .8s;
+}.social{
+	display: inline;
+
+}.social ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.social ul li
+{
+    display : inline;
+float:left;
+
+margin-right:25px;
+list-style-type:none;
 }
