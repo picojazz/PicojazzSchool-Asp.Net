@@ -21,8 +21,8 @@
     		<div class="nav-wrapper blue lighten-1">
       				<a href="#" class="brand-logo">Picojazz School</a>
       			<ul id="nav-mobile" class="right hide-on-med-and-down">
-        			<li><a href="#" class="btnInscrire1">S'INSCRIRE</a></li>
-        			<li><a href="#" class="white lighten-1 blue-text waves-effect waves-light btn">Se connecter</a></li>
+        			
+        			<li><a href="#" class="white lighten-1 blue-text waves-effect waves-light btn">Espace Membre</a></li>
       			</ul>
     		</div>
   		 </nav>
@@ -34,8 +34,8 @@
 					
 				</div>
 				<div class="col s4 right-align">
-					<a href="#" class="btnInscrire">S'INSCRIRE</a>
-					<a href="#" class="blue lighten-1  waves-effect waves-light btn">Se connecter</a>
+					
+					<a href="#" class="blue lighten-1  waves-effect waves-light btn">Espace Membre</a>
 				</div>
 			</div>
 			<br><br><br><br>

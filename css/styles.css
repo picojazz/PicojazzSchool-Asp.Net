@@ -43,6 +43,7 @@
 	background-color: #42a5f5;
 }.btnInscrire:hover{
 	background-color: #42a5f5;
+	
 }.titre{
   	padding-top: 5px;
     //padding-bottom: 5px;
@@ -93,4 +94,8 @@ float:left;
 
 margin-right:25px;
 list-style-type:none;
+}.profil{
+	line-height: 10%;
+}.menu-item li{
+	
 }

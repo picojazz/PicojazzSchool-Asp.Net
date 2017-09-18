@@ -82,15 +82,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="accueil.aspx" />
+    <Content Include="connexion.aspx" />
     <Content Include="css\materialize.min.css" />
     <Content Include="css\styles.css" />
+    <Content Include="css\styles2.css" />
     <Content Include="formations.aspx" />
+    <Content Include="img\etudiant\1.jpg" />
     <Content Include="img\landingPage\banner.jpg" />
     <Content Include="img\landingPage\banner2.jpg" />
+    <Content Include="img\landingPage\connexion.png" />
     <Content Include="img\landingPage\css.png" />
     <Content Include="img\landingPage\facebook.png" />
     <Content Include="img\landingPage\google.png" />
     <Content Include="img\landingPage\html.png" />
+    <Content Include="img\landingPage\inscription.png" />
     <Content Include="img\landingPage\java.png" />
     <Content Include="img\landingPage\js.png" />
     <Content Include="img\landingPage\linkedin.png" />
@@ -100,6 +105,7 @@
     <Content Include="img\landingPage\twitter.png" />
     <Content Include="js\jquery.min.js" />
     <Content Include="js\materialize.min.js" />
+    <Content Include="profil.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -108,6 +114,13 @@
     </Compile>
     <Compile Include="accueil.aspx.vb">
       <DependentUpon>accueil.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="connexion.aspx.designer.vb">
+      <DependentUpon>connexion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="connexion.aspx.vb">
+      <DependentUpon>connexion.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="formations.aspx.designer.vb">
@@ -135,6 +148,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="profil.aspx.designer.vb">
+      <DependentUpon>profil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="profil.aspx.vb">
+      <DependentUpon>profil.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="traitement.vb" />
   </ItemGroup>

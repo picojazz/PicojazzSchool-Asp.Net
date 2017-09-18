@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class formations
+Partial Public Class connexion
 
     '''<summary>
     '''form1 control.
@@ -23,11 +23,20 @@ Partial Public Class formations
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
-    '''profil control.
+    '''btnInscription control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents profil As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents btnInscription As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''btnConnexion control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnConnexion As Global.System.Web.UI.WebControls.Button
 End Class

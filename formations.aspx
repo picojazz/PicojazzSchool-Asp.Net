@@ -17,6 +17,10 @@
 		<div class="row">
 
       		<div class="col s2 blue-grey darken-4" style="height: 100vh;">
+      			<div class="profil center-align">
+      				<br><br>
+                      <asp:Label ID="profil" runat="server" Text=""></asp:Label>
+      			</div>
             
       		</div>
 
