@@ -22,7 +22,7 @@
       				<a href="#" class="brand-logo">Picojazz School</a>
       			<ul id="nav-mobile" class="right hide-on-med-and-down">
         			
-        			<li><a href="#" class="white lighten-1 blue-text waves-effect waves-light btn">Espace Membre</a></li>
+        			<li><a href="connexion.aspx" class="white lighten-1 blue-text waves-effect waves-light btn">Espace Membre</a></li>
       			</ul>
     		</div>
   		 </nav>
@@ -35,7 +35,7 @@
 				</div>
 				<div class="col s4 right-align">
 					
-					<a href="#" class="blue lighten-1  waves-effect waves-light btn">Espace Membre</a>
+					<a href="connexion.aspx" class="blue lighten-1  waves-effect waves-light btn">Espace Membre</a>
 				</div>
 			</div>
 			<br><br><br><br>
@@ -48,7 +48,7 @@
 			</div><br><br>
 			<div class="row">
 				<div class="col s12 center-align">
-					<a href="#" class="banner-button">Rejoignez-nous dès maintenant !</a>
+					<a href="connexion.aspx" class="banner-button">Rejoignez-nous dès maintenant !</a>
 				</div>
 			</div>
 		</div>
@@ -270,7 +270,7 @@
 
         
         $( window ).scroll(function() {
-  			if($(document).scrollTop() > 388){
+  			if($(document).scrollTop() > 588){
   				$('#bar').slideDown(); 
   			}else{
   				$('#bar').fadeOut(100);

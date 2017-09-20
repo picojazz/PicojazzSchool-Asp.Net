@@ -83,11 +83,14 @@
   <ItemGroup>
     <Content Include="accueil.aspx" />
     <Content Include="connexion.aspx" />
+    <Content Include="css\font-awesome.min.css" />
     <Content Include="css\materialize.min.css" />
     <Content Include="css\styles.css" />
     <Content Include="css\styles2.css" />
+    <Content Include="deconnexion.aspx" />
     <Content Include="formations.aspx" />
     <Content Include="img\etudiant\1.jpg" />
+    <Content Include="img\etudiant\0.png" />
     <Content Include="img\landingPage\banner.jpg" />
     <Content Include="img\landingPage\banner2.jpg" />
     <Content Include="img\landingPage\connexion.png" />
@@ -105,6 +108,7 @@
     <Content Include="img\landingPage\twitter.png" />
     <Content Include="js\jquery.min.js" />
     <Content Include="js\materialize.min.js" />
+    <Content Include="modifProfil.aspx" />
     <Content Include="profil.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -123,11 +127,25 @@
       <DependentUpon>connexion.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="deconnexion.aspx.designer.vb">
+      <DependentUpon>deconnexion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="deconnexion.aspx.vb">
+      <DependentUpon>deconnexion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="formations.aspx.designer.vb">
       <DependentUpon>formations.aspx</DependentUpon>
     </Compile>
     <Compile Include="formations.aspx.vb">
       <DependentUpon>formations.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="modifProfil.aspx.designer.vb">
+      <DependentUpon>modifProfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modifProfil.aspx.vb">
+      <DependentUpon>modifProfil.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />

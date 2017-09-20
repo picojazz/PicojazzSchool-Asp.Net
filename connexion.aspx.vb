@@ -21,9 +21,9 @@ Public Class connexion
         dr2 = login(compte, passe)
         If dr2.HasRows Then
             Session("isOpen") = "1"
-            'Dim dt As New DataTable
-            'dt.Load(dr)
-            'Session("client") = dt
+            Dim dt As New DataTable
+            dt.Load(dr2)
+            Session("etudiant") = dt
             Response.Redirect("profil.aspx")
 
             dr2.Close()

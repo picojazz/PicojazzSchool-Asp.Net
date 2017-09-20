@@ -6,7 +6,15 @@ PicojazzSchool
 </name>
 </assembly>
 <members>
-<member name="P:PicojazzSchool.My.MyWebExtension.Computer">
+<member name="F:PicojazzSchool.deconnexion.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:PicojazzSchool.My.MyWebExtension.Computer">
 	<summary>
  Returns information about the host computer.
  </summary>
@@ -39,9 +47,137 @@ form1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:PicojazzSchool.formations.profil">
+</member><member name="F:PicojazzSchool.formations.info1">
 	<summary>
-profil control.
+info1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PicojazzSchool.formations.btnRech">
+	<summary>
+btnRech control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PicojazzSchool.formations.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PicojazzSchool.formations.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PicojazzSchool.modifProfil.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PicojazzSchool.modifProfil.info2">
+	<summary>
+info2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PicojazzSchool.modifProfil.photoProfil">
+	<summary>
+photoProfil control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PicojazzSchool.modifProfil.FileUpload1">
+	<summary>
+FileUpload1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PicojazzSchool.modifProfil.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PicojazzSchool.modifProfil.fnom">
+	<summary>
+fnom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PicojazzSchool.modifProfil.femail">
+	<summary>
+femail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PicojazzSchool.modifProfil.fadresse">
+	<summary>
+fadresse control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PicojazzSchool.modifProfil.fage">
+	<summary>
+fage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PicojazzSchool.modifProfil.fcompte">
+	<summary>
+fcompte control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PicojazzSchool.modifProfil.fpasse">
+	<summary>
+fpasse control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PicojazzSchool.modifProfil.fbio">
+	<summary>
+fbio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PicojazzSchool.modifProfil.btnModif">
+	<summary>
+btnModif control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -111,9 +247,9 @@ detail control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:PicojazzSchool.profil.bio">
+</member><member name="F:PicojazzSchool.profil.biod">
 	<summary>
-bio control.
+biod control.
 </summary>
 	<remarks>
 Auto-generated field.

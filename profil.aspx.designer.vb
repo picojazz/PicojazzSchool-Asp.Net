@@ -50,11 +50,11 @@ Partial Public Class profil
     Protected WithEvents detail As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''bio control.
+    '''biod control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents bio As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents biod As Global.System.Web.UI.WebControls.Label
 End Class
