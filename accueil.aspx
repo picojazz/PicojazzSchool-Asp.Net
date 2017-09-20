@@ -81,15 +81,70 @@
 		</div>
 		<br><br><br>
 	</section>
-	<section class="contact">
+  <section class="temoignages"><br>
+    <h1 class="titre section-title center-align blue-grey-text">Témoignages</h1><br><br><br>
+    <div class="row">
+      <div class="col s4 center-align">
+        <div class="temoignage">
+          <img src="img/landingPage/t1.jpg" width="100" height="100" class="circle">
+          <p class="center-align">ibrahima faye</p>
+          <p class="center-align" style="padding:20px 70px 70px 70px;">"Sed ut perspiciatis unde omnis iste natu error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta"</p>
+        </div>
+      </div>
+      <div class="col s4 center-align">
+        <div class="temoignage">
+          <img src="img/landingPage/t2.jpg" width="100" height="100" class="circle">
+          <p class="center-align">saliou ndiaye</p>
+          <p class="center-align" style="padding:20px 70px 70px 70px;">"odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserun"</p>
+        </div>
+      </div>
+      <div class="col s4 center-align">
+        <div class="temoignage">
+          <img src="img/landingPage/t3.jpg" width="100" height="100" class="circle">
+          <p class="center-align">pape alioune diouf</p>
+          <p class="center-align" style="padding:20px 70px 70px 70px;">"saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus .""</p>
+        </div>
+      </div>
+    </div>
+  </section>
+	<section class="contact grey lighten-3">
 		<br>
 
 			<div class="row">
 				<h1 class="titre section-title center-align blue-grey-text">Contactez - nous</h1><br><br>
 				<div class="col s5 offset-s1  about-text">
-					<p>Senegal , Ouakam , Cité Assemblée , villa n° 164 <br> +221 33 820 28 36 +221 77 951 89 58 </p>
+          <div class="row">
+            <div class="input-field col s6">
+                    <input   type="text" name="nom" class="validate">
+                    <label>Nom Complet</label>
+            </div>
+          
+          
+            <div class="input-field col s6">
+                    <input   type="email" name="email" class="validate">
+                    <label>Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s6">
+                    <input   type="text" name="objet" class="validate">
+                    <label>Objet</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field " style="padding-left: 10px;">
+                    <textarea  name="message" class="materialize-textarea"></textarea>
+                    <label style="padding-left: 10px;">Message</label>
+            </div>
+            <div style="padding-left: 10px;">
+            <a href="#"  class="btn blue lighten-1 waves-light waves-effect">Envoyer</a>
+            </div>
+          </div>
+
+					
 				</div>
-				<div class="col social s4 offset-s2 "><br>
+				<div class="col social s4 offset-s2 about-text"><br><br><br>
+          <p>Senegal , Ouakam , Cité Assemblée , villa n° 164 <br> +221 33 820 28 36 +221 77 951 89 58 </p><br>
 					<ul class="right-align">
 						<li><img src="img/landingPage/facebook.png" width="40" class="icon" height="40" class="icon"></li>
 						<li><img src="img/landingPage/twitter.png" width="40" class="icon" height="40" class="icon"></li>

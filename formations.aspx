@@ -28,7 +28,7 @@
       					<ul class="menu-item center-align grey-text text-lighten-1 " >
       						<li><a href="#" class="grey-text"><i class="fa fa-tachometer" aria-hidden="true"></i>
  Tableau de bord</a></li>
-      						<li><a href="formations.aspx" class="grey-text"><i class="fa fa-book" aria-hidden="true"></i>
+      						<li class="activ"><a href="formations.aspx" class="grey-text"><i class="fa fa-book" aria-hidden="true"></i>
  Les formations</a></li>
       						
       						

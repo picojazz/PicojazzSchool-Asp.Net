@@ -5,4 +5,16 @@
 
     End Sub
 
+    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim compte As String = Request.Form("user")
+        Dim passe As String = Request.Form("pass")
+        If compte = "admin" And passe = "admin" Then
+            Session("isOpen") = "1"
+            Session("admin") = "99"
+            Response.Redirect("gestionEtudiants.aspx")
+        Else
+            Response.Redirect("accueil.aspx")
+        End If
+
+    End Sub
 End Class

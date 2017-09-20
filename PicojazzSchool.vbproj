@@ -82,6 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="accueil.aspx" />
+    <Content Include="admin.aspx" />
     <Content Include="connexion.aspx" />
     <Content Include="css\font-awesome.min.css" />
     <Content Include="css\materialize.min.css" />
@@ -89,8 +90,12 @@
     <Content Include="css\styles2.css" />
     <Content Include="deconnexion.aspx" />
     <Content Include="formations.aspx" />
+    <Content Include="gestionEtudiants.aspx" />
+    <Content Include="gestionFormations.aspx" />
     <Content Include="img\etudiant\1.jpg" />
     <Content Include="img\etudiant\0.png" />
+    <Content Include="img\formation\java.jpg" />
+    <Content Include="img\formation\0.jpg" />
     <Content Include="img\landingPage\banner.jpg" />
     <Content Include="img\landingPage\banner2.jpg" />
     <Content Include="img\landingPage\connexion.png" />
@@ -120,6 +125,13 @@
       <DependentUpon>accueil.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="admin.aspx.designer.vb">
+      <DependentUpon>admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin.aspx.vb">
+      <DependentUpon>admin.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="connexion.aspx.designer.vb">
       <DependentUpon>connexion.aspx</DependentUpon>
     </Compile>
@@ -139,6 +151,20 @@
     </Compile>
     <Compile Include="formations.aspx.vb">
       <DependentUpon>formations.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="gestionEtudiants.aspx.designer.vb">
+      <DependentUpon>gestionEtudiants.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gestionEtudiants.aspx.vb">
+      <DependentUpon>gestionEtudiants.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="gestionFormations.aspx.designer.vb">
+      <DependentUpon>gestionFormations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gestionFormations.aspx.vb">
+      <DependentUpon>gestionFormations.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="modifProfil.aspx.designer.vb">

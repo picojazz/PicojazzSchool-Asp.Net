@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class admin
+Partial Public Class gestionEtudiants
 
     '''<summary>
     '''form1 control.
@@ -23,11 +23,20 @@ Partial Public Class admin
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
-    '''Button1 control.
+    '''btnRech control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents btnRech As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''etudiant control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents etudiant As Global.System.Web.UI.WebControls.Label
 End Class

@@ -53,8 +53,12 @@ Modifier mon profil</a>
             	</div>
             	<div class="row">
             		<div class="col s7 offset-s1">
-            		<h4 class="bio"> Bio</h4>
-                        <asp:Label ID="biod" runat="server" Text=""></asp:Label>
+            			<div class="card blue-grey darken-4">
+            				<div class="card-content white-text">
+             					 <span class="card-title">qui suis-je ?</span>
+                        			<asp:Label ID="biod" runat="server" Text=""></asp:Label>
+                        	</div>
+                        </div>
             		</div>
             	</div>
 

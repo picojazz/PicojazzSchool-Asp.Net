@@ -67,7 +67,11 @@ Module traitement
     Public Function modifEtudiant(ByVal nom As String, ByVal email As String, ByVal compte As String, ByVal passe As String, ByVal adresse As String, ByVal bio As String, ByVal age As String, ByVal photo As String)
         Return executeSQL("UPDATE etudiant SET nom ='" & nom & "', email ='" & email & "', compte ='" & compte & "', passe ='" & passe & "', adresse ='" & adresse & "', bio ='" & bio & "', age ='" & age & "' , photo ='" & photo & "' where matricule ='" & matricule & "' ")
     End Function
+    Public Function lesEtudiants()
+        Return executeSQL("select * from etudiant")
+    End Function
 
-
-
+    Public Function addFormation(ByVal titre As String, ByVal desc As String, ByVal nbeleve As Integer, ByVal duree As String, ByVal dat As String, ByVal mensualite As Integer, ByVal image As String)
+        Return executeSQL("insert into formation (titre,description,mensualite,nbEleves,date,duree,photo)values('" & titre & "','" & desc & "'," & mensualite & "," & nbeleve & ",'" & dat & "','" & duree & "','" & image & "')")
+    End Function
 End Module
