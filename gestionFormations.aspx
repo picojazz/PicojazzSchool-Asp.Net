@@ -127,6 +127,13 @@
 		$(document).ready(function(){
    
     		$('.modal').modal();
+
+
+            $(".supp").on("click", function (e) {
+               
+               return confirm("etes vous sur de vouloir supprimer ce client")
+            })
+    
   		});
 	</script>
 

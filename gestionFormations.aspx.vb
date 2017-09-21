@@ -16,7 +16,7 @@ Public Class gestionFormations
             dr = lesFormations()
             If dr.HasRows Then
                 While dr.Read
-                    formation.Text &= "<li class='collection-item avatar'><img src='img/formation/" & dr(1) & ".jpg' alt='' class='circle'><span class='title'>" & dr(1) & "</span><p><strong>Debut session : </strong>" & dr(5) & "</p><a href='#!' class='secondary-content'><i style='font-size:25px ;color:gray;' class='fa fa-pencil' aria-hidden='true'></i></a></li>"
+                    formation.Text &= "<li class='collection-item avatar'><img src='" & dr(7) & "' alt='' class='circle'><span class='title'>" & dr(1) & "</span><p><strong>Debut session : </strong>" & dr(5) & "</p><a href='modifFormation.aspx?id=" & dr(0) & "' class=''><i style='font-size:25px ;color:gray;padding-top:15px;' class='fa fa-pencil' aria-hidden='true'></i></a><a href='suppFormation.aspx?id=" & dr(0) & "' class='supp' style='font-size:25px ;color:gray;margin-left:25px;padding-top:15px;'><i class='fa fa-trash-o' aria-hidden='true'></i></a></li>"
                 End While
             End If
             dr.Close()

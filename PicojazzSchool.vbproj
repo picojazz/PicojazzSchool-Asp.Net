@@ -96,8 +96,10 @@
     <Content Include="img\etudiant\0.png" />
     <Content Include="img\formation\java.jpg" />
     <Content Include="img\formation\0.jpg" />
+    <Content Include="img\landingPage\t1.jpg" />
     <Content Include="img\landingPage\banner.jpg" />
     <Content Include="img\landingPage\banner2.jpg" />
+    <Content Include="img\landingPage\t2.jpg" />
     <Content Include="img\landingPage\connexion.png" />
     <Content Include="img\landingPage\css.png" />
     <Content Include="img\landingPage\facebook.png" />
@@ -111,10 +113,13 @@
     <Content Include="img\landingPage\php.png" />
     <Content Include="img\landingPage\ruby.png" />
     <Content Include="img\landingPage\twitter.png" />
+    <Content Include="img\landingPage\t3.jpg" />
     <Content Include="js\jquery.min.js" />
     <Content Include="js\materialize.min.js" />
+    <Content Include="modifFormation.aspx" />
     <Content Include="modifProfil.aspx" />
     <Content Include="profil.aspx" />
+    <Content Include="suppFormation.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -167,6 +172,13 @@
       <DependentUpon>gestionFormations.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="modifFormation.aspx.designer.vb">
+      <DependentUpon>modifFormation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modifFormation.aspx.vb">
+      <DependentUpon>modifFormation.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="modifProfil.aspx.designer.vb">
       <DependentUpon>modifProfil.aspx</DependentUpon>
     </Compile>
@@ -198,6 +210,13 @@
     </Compile>
     <Compile Include="profil.aspx.vb">
       <DependentUpon>profil.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="suppFormation.aspx.designer.vb">
+      <DependentUpon>suppFormation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="suppFormation.aspx.vb">
+      <DependentUpon>suppFormation.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="traitement.vb" />

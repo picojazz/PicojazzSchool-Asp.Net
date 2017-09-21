@@ -69,14 +69,9 @@
 	<section class="modules indigo lighten-5">
 		<br>
 		<div class="container">
-		<div class="row">
 			<h1 class="titre section-title center-align blue-grey-text">Nos formations</h1><br><br><br><br>
-			<div class="col s2"><a class=" modal-trigger" href="#html"><img class="icon" src="img/landingPage/html.png" width="120" height="120"></a></div>
-			<div class="col s2"><a class=" modal-trigger" href="#java"><img class="icon" src="img/landingPage/java.png" width="120" height="120"></a></div>
-			<div class="col s2"><a class=" modal-trigger" href="#js"><img class="icon" src="img/landingPage/js.png" width="120" height="120"></a></div>
-			<div class="col s2"><a class=" modal-trigger" href="#php"><img class="icon" src="img/landingPage/php.png" width="120" height="120"></a></div>
-			<div class="col s2"><a class=" modal-trigger" href="#ruby"><img class="icon" src="img/landingPage/ruby.png" width="120" height="120"></a></div>
-			<div class="col s2"><a class=" modal-trigger" href="#css"><img class="icon" src="img/landingPage/css.png" width="120" height="120"></a></div>
+      <div class="row">
+          <asp:Label ID="formationAccueil" runat="server" Text=""></asp:Label>
 		</div>
 		</div>
 		<br><br><br>
@@ -146,10 +141,10 @@
 				<div class="col social s4 offset-s2 about-text"><br><br><br>
           <p>Senegal , Ouakam , Cité Assemblée , villa n° 164 <br> +221 33 820 28 36 +221 77 951 89 58 </p><br>
 					<ul class="right-align">
-						<li><img src="img/landingPage/facebook.png" width="40" class="icon" height="40" class="icon"></li>
-						<li><img src="img/landingPage/twitter.png" width="40" class="icon" height="40" class="icon"></li>
-						<li><img src="img/landingPage/linkedin.png" width="40" class="icon" height="40" class="icon"></li>
-						<li><img src="img/landingPage/google.png" width="40" class="icon" height="40" class="icon"></li>
+						<li><a href="#"><img src="img/landingPage/facebook.png" width="40" class="icon" height="40" class="icon"></a></li>
+						<li><a href="#"><img src="img/landingPage/twitter.png" width="40" class="icon" height="40" class="icon"></a></li>
+						<li><a href="#"><img src="img/landingPage/linkedin.png" width="40" class="icon" height="40" class="icon"></a></li>
+						<li><a href="#"><img src="img/landingPage/google.png" width="40" class="icon" height="40" class="icon"></a></li>
 					</ul>
 				</div>
 
@@ -179,137 +174,7 @@
 
 <!--Modals -->
 
- <div id="html" class="modal">
-    <div class="modal-content">
-      <div class="row">
-      <div class="center-align">
-      	<img src="img/landingPage/html.png" width="180" height="180">
-      </div>
-      <br>
-      <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
-      </div>
-    </div>
-    <div class="row">
-      <h1 class="titre section-title center-align black-text">tarifs</h1>
-      <div class="col s6">
-      	<p>Mensualité : <strong>30 000 F cfa</strong></p>
-      	<p>Durée : <strong>3 mois</strong></p>
-      </div>
-      <div class="col s6"></div>
-      <p>Nombres d'eleves : <strong>20 / classe</strong></p>
-      <p>Date de la nouvelle session : <strong>16 Septembre 2017 </strong></p>
-    </div>
-  </div>
-
-  <div id="java" class="modal">
-    <div class="modal-content">
-      <div class="row">
-      <div class="center-align">
-      	<img src="img/landingPage/java.png" width="180" height="180">
-      </div>
-      <br>
-      <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
-      </div>
-    </div>
-    <div class="row">
-      <h1 class="titre section-title center-align black-text">tarifs</h1>
-      <div class="col s6">
-      	<p>Mensualité : <strong>30 000 F cfa</strong></p>
-      	<p>Durée : <strong>3 mois</strong></p>
-      </div>
-      <div class="col s6"></div>
-      <p>Nombres d'eleves : <strong>20 / classe</strong></p>
-      <p>Date de la nouvelle session : <strong>16 Septembre 2017 </strong></p>
-    </div>
-  </div>
-
-  <div id="js" class="modal">
-    <div class="modal-content">
-      <div class="row">
-      <div class="center-align">
-      	<img src="img/landingPage/js.png" width="180" height="180">
-      </div>
-      <br>
-      <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
-      </div>
-    </div>
-    <div class="row">
-      <h1 class="titre section-title center-align black-text">tarifs</h1>
-      <div class="col s6">
-      	<p>Mensualité : <strong>30 000 F cfa</strong></p>
-      	<p>Durée : <strong>3 mois</strong></p>
-      </div>
-      <div class="col s6"></div>
-      <p>Nombres d'eleves : <strong>20 / classe</strong></p>
-      <p>Date de la nouvelle session : <strong>16 Septembre 2017 </strong></p>
-    </div>
-  </div>
-
-  <div id="php" class="modal">
-    <div class="modal-content">
-      <div class="row">
-      <div class="center-align">
-      	<img src="img/landingPage/php.png" width="180" height="180">
-      </div>
-      <br>
-      <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
-      </div>
-    </div>
-    <div class="row">
-      <h1 class="titre section-title center-align black-text">tarifs</h1>
-      <div class="col s6">
-      	<p>Mensualité : <strong>30 000 F cfa</strong></p>
-      	<p>Durée : <strong>3 mois</strong></p>
-      </div>
-      <div class="col s6"></div>
-      <p>Nombres d'eleves : <strong>20 / classe</strong></p>
-      <p>Date de la nouvelle session : <strong>16 Septembre 2017 </strong></p>
-    </div>
-  </div>
-
-  <div id="ruby" class="modal">
-    <div class="modal-content">
-      <div class="row">
-      <div class="center-align">
-      	<img src="img/landingPage/ruby.png" width="180" height="180">
-      </div>
-      <br>
-      <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
-      </div>
-    </div>
-    <div class="row">
-      <h1 class="titre section-title center-align black-text">tarifs</h1>
-      <div class="col s6">
-      	<p>Mensualité : <strong>30 000 F cfa</strong></p>
-      	<p>Durée : <strong>3 mois</strong></p>
-      </div>
-      <div class="col s6"></div>
-      <p>Nombres d'eleves : <strong>20 / classe</strong></p>
-      <p>Date de la nouvelle session : <strong>16 Septembre 2017 </strong></p>
-    </div>
-  </div>
-
-  <div id="css" class="modal">
-    <div class="modal-content">
-      <div class="row">
-      <div class="center-align">
-      	<img src="img/landingPage/css.png" width="180" height="180">
-      </div>
-      <br>
-      <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
-      </div>
-    </div>
-    <div class="row">
-      <h1 class="titre section-title center-align black-text">tarifs</h1>
-      <div class="col s6">
-      	<p>Mensualité : <strong>30 000 F cfa</strong></p>
-      	<p>Durée : <strong>3 mois</strong></p>
-      </div>
-      <div class="col s6"></div>
-      <p>Nombres d'eleves : <strong>20 / classe</strong></p>
-      <p>Date de la nouvelle session : <strong>16 Septembre 2017 </strong></p>
-    </div>
-  </div>
+    <asp:Label ID="formationModal" runat="server" Text=""></asp:Label>
 
   <!-- fin modals -->
 

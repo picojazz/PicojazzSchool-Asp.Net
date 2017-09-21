@@ -74,4 +74,13 @@ Module traitement
     Public Function addFormation(ByVal titre As String, ByVal desc As String, ByVal nbeleve As Integer, ByVal duree As String, ByVal dat As String, ByVal mensualite As Integer, ByVal image As String)
         Return executeSQL("insert into formation (titre,description,mensualite,nbEleves,date,duree,photo)values('" & titre & "','" & desc & "'," & mensualite & "," & nbeleve & ",'" & dat & "','" & duree & "','" & image & "')")
     End Function
+    Public Function rechFormation(ByVal id As Integer)
+        Return executeSQL("select * from formation where codeFor =" & id & "")
+    End Function
+    Public Function modifierFormation(ByVal titre As String, ByVal desc As String, ByVal nbeleve As Integer, ByVal duree As String, ByVal dat As String, ByVal mensualite As Integer, ByVal image As String, ByVal id As Integer)
+        Return executeSQL("update formation set titre='" & titre & "', description='" & desc & "', mensualite=" & mensualite & ", nbEleves=" & nbeleve & ", date='" & dat & "', duree='" & duree & "', photo= '" & image & "' where codeFor=" & id & "")
+    End Function
+    Public Function supFormation(ByVal id As Integer)
+        Return executeSQL("delete from formation where codeFor =" & id & "")
+    End Function
 End Module
